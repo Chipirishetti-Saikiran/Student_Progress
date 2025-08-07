@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EduBoard Dashboard</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <nav class="sidebar">
+    <h2>EduBoard</h2>
+    <ul>
+      <li><a href="#">Dashboard</a></li>
+      <li><a href="#">Subjects</a></li>
+      <li><a href="#">Attendance</a></li>
+      <li><a href="#">Profile</a></li>
+      <li><a href="#">Settings</a></li>
+    </ul>
+  </nav>
+
+  <div class="main-content">
+    <header class="header">
+      <div class="profile">
+        <img src="https://via.placeholder.com/40" alt="Profile Avatar" />
+        <span>Saikiran</span>
+      </div>
+      <div class="notifications">
+        <i class="fas fa-bell"></i>
+      </div>
+    </header>
+
+    <section class="cards">
+      <article class="card">GPA: <strong>3.8</strong></article>
+      <article class="card">Attendance: <strong>92%</strong></article>
+      <article class="card">Assignments Due: <strong>3</strong></article>
+      <article class="card">Total Credits: <strong>120</strong></article>
+    </section>
+
+    <section class="progress-table">
+      <h3>Subject Progress</h3>
+      <table>
+        <thead>
+          <tr><th>Subject</th><th>Progress</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Mathematics</td>
+            <td><div class="progress-bar"><div class="progress" style="width: 85%"></div></div></td>
+          </tr>
+          <tr>
+            <td>Science</td>
+            <td><div class="progress-bar"><div class="progress" style="width: 75%"></div></div></td>
+          </tr>
+          <tr>
+            <td>English</td>
+            <td><div class="progress-bar"><div class="progress" style="width: 90%"></div></div></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="deadlines">
+      <h3>Upcoming Deadlines</h3>
+      <ul>
+        <li><span class="badge">Aug 10</span> Science Assignment 3</li>
+        <li><span class="badge">Aug 15</span> English Essay</li>
+        <li><span class="badge">Aug 20</span> Math Quiz</li>
+      </ul>
+    </section>
+
+    <section class="profile-card">
+      <h3>Student Profile</h3>
+      <div class="profile-details">
+        <p><strong>Name:</strong> Saikiran</p>
+        <p><strong>Roll No:</strong> 22CS101</p>
+        <p><strong>Email:</strong> saikiran@example.com</p>
+        <p><strong>College:</strong> ABC University</p>
+        <p><strong>Department:</strong> Computer Science</p>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
